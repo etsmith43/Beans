@@ -1380,7 +1380,7 @@ namespace olc
 					sprintf_s(sTitle, 256, "OneLoneCoder.com - Pixel Game Engine - %s - FPS: %d", sAppName.c_str(), nFrameCount);
 #else
 					char sTitle[256];
-					sprintf(sTitle, "%s - FPS: %d", sAppName.c_str(), nFrameCount);
+					sprintf(sTitle, "OneLoneCoder.com - Pixel Game Engine - %s - FPS: %d", sAppName.c_str(), nFrameCount);
 #endif
 #endif
 					SetWindowText(olc_hWnd, sTitle);
